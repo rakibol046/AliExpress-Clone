@@ -1,0 +1,25 @@
+.custom-dots {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  top: -180%;
+}
+.slick-active > .custom-dots {
+  background-color: red !important;
+}
+// .hero-slider {
+//   padding-top: 10px;
+// }
+
+.slider-img {
+  width: 100%;
+  // height: 22rem;
+}
+@media only screen and (max-width: 996px) {
+  .slider-img {
+    width: 100%;
+    height: auto;
+  }
+}
